@@ -17,25 +17,36 @@
 
 
 
-<body class="body1">
+<body id="body1">
 
-<div class="container">
+<div class="grid-container">
     <header>
         <img src="/Images/logo_hk.jpg" width="250" alt="logo_hk">
         <h2> <i> Tu puerta de ingreso a WALL STREET </i>  </h2> 
 
         </header>
+   
+       
 
     <nav>
 
-        <a href="#">Home </a>
-        <a href="#">Acciones </a>
-        <a href="#">Brokers </a>
-        <a href="contacto.html">Contacto </a>
-        
+
+        <ul>
+            <li> <a href="index.html"> Inicio | </a> </li>
+            <li> <a href="wall.html"> Acciones |</a> </li>
+            <li> <a href="brokers.html"> Brokers |</a> </li>
+            <li> <a href="formulario.html"> Contactenos </a> </li>
+        </ul>
+
+        <!--
+        <a href="index.html"> Inicio </a>
+        <a href="wall.html">Panel Acciones </a>
+        <a href="brokers.html">Brokers </a>
+        <a href="formulario.html"> Contacto </a>
+        -->
 
     
-        
+  
 
         <a id="logo_t" href="https://twitter.com/" target="_blank">  
         <img  src="Images/logo_twitter.png" width="35px" height="35px" alt="logo_twitter">
@@ -56,17 +67,45 @@
          
         
 
-
     </nav>
-    
 
-    <article>
-        <section class="section1">
-            <img id="imagen2" src="/Images/wall_street_operador.jpg" alt="wall_street_operador">
+    
+      <article>
+        <section id="section1">
+            <div class="container-fluid">
+            <p id="epigrafe1_sec1" > <b> Agencia EFE </b> <br> jue, 22 de septiembre de 2022, 5:54 p. m. </p> 
+                        
+            <img id="img_sec1" src="/Images/wall_street_operador2.jpg" alt="wall_street_operador2">
+
+            <a href="">
+            <p id="titulo1_sec1"> <b> Wall Street cierra en rojo y el Dow Jones baja un 0,35 %  </b> </p>
+            </a>
+            <p> Nueva York, 22 sep (EFE).- Wall Street cerró este jueves en rojo y su principal indicador, el Dow Jones de Industriales, bajó un 0,35 % a medida que más bancos centrales aumentan los tipos de interés para luchar contra la inflación.</p>
+<!-- https://es.finance.yahoo.com/noticias/wall-street-abre-rojo-dow-151228117.html -->
+            <br> <br>
+
+            <p id="epigrafe2_sec1" > <b> Estrategias de Inversión </b> <br> lun, 19 de septiembre de 2022, 11:20 p. m. </p> 
+                        
+            <img id="img_sec1" src="/Images/tablero_wall street.jpg" alt="tablero_wall">
+
+            <a href="">
+            <p id="titulo2_sec1"> <b> ¿Cuáles son las Bolsas del mundo qué más suben en 2022? </b> </p>
+            </a>
+            <p id="pie1_sec1"> El miedo a una recesión global por el endurecimiento de la política monetaria, unido a las tensiones geopolíticas y a los últimos coletazos del Covid-19 han dejado un panorama desolador para las grandes bolsas mundiales, con caídas acumuladas de dobles dígitos para índices como el Dow Jones neoyorquino o el DAX alemán. </p>
+        </div>
+
+<!-- https://www.bloomberg.com/news/articles/2022-09-23/singapore-overtakes-hong-kong-in-world-financial-centers-ranking?srnd=premium&leadSource=uverify%20wall -->
+
 
         </section>
         <section class="section2">
-            <h1> SECTION2</h1>
+            
+
+
+
+
+
+
 
         </section>
 
@@ -74,32 +113,55 @@
 
     <aside>
 
-        <h1>ASIDE</h1>
+        <h3 id="text1_aside"><b>info<i>TECNO</i></b></h3>
+
+        <img class="img_aside" src="/Images/tesla.jfif" alt="tesla">
+        <a class="link_ep" href="">
+        <p class="epig_aside" > <b> Tesla llama a revisión a casi 1,1 millones de vehículos en EEUU por software de ventanilla </b> </p> 
+        </a>   
+
+
+        <!-- https://es.finance.yahoo.com/noticias/tesla-llama-revisi%C3%B3n-1-1-183954455.html -->
+
+
+        <img class="img_aside" src="/Images/aapl_chip3nm.png" alt="aapl_chip3nm">
+        <a class="link_ep" href="">
+        <p class="epig_aside" > <b> Apple usará la tecnología de chip 3nm de TSMC en 2023  </b> </p> 
+        </a> 
+
+        
+        <img class="img_aside" src="/Images/logo_meta.jpg" alt="logo_meta">
+        <a class="link_ep" href="">
+        <p class="epig_aside" > <b> Meta probará herramientas de contenido para anunciantes a finales de este año  </b> </p> 
+        </a> 
+
+        
+
+
+        </a>
+
+
+        <a href="https://portal.catamarca.gob.ar/ui/?gclid=EAIaIQobChMI_b31xqGq-gIVjxCICR0adAWlEAEYASAAEgIFUvD_BwE" target="_blank">
+        <img id="publi1" src="/Images/catamarca.jfif" alt="catamarca"> </a>
+        <!-- https://libertex.org/es/test-for-traders#start-quiz 
+            https://www.ambito.com/finanzas/inversiones/como-armar-una-cartera-inversion-acorde-mi-perfil-n5541721
+        -->
+
+
 
     </aside>
 
 
-
-
-
-
-
-
-
-
-
-
-
- 
-        <footer> <center><p>&copy;2022 K1nghthawk - Todos los derechos reservados  <br> Buenos Aires - Argentina </p> </center> </footer>
-     
+    <footer> <b><p> &copy;2022 K1nghthawk - Todos los derechos reservados  <br> Buenos Aires - Argentina </p> </b>  </footer>  
 
 </div>
 
-    
 
 
 
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
 </body>
 </html>
