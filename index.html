@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,8 +11,9 @@
 
     <title>HK Finances</title>
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -19,238 +21,401 @@
 
 <body id="body1">
 
-<div class="grid-container">
-    <header>
-        <img src="/Images/logo_hk.jpg" width="250" alt="logo_hk">
-        <h2> <i> Tu puerta de ingreso a WALL STREET </i>  </h2> 
+    <div class="grid-container">
+        <header>
+            <img src="/Images/logo_hk.jpg" width="450" alt="logo_hk">
+
 
         </header>
-   
-       
-
-    <nav>
 
 
-        <ul>
-            <li> <a href="index.html"> Inicio | </a> </li>
-            <li> <a href="wall.html"> Acciones |</a> </li>
-            <li> <a href="brokers.html"> Brokers |</a> </li>
-            <li> <a href="formulario.html"> Contactenos </a> </li>
-        </ul>
 
-        <!--
-        <a href="index.html"> Inicio </a>
-        <a href="wall.html">Panel Acciones </a>
-        <a href="brokers.html">Brokers </a>
-        <a href="formulario.html"> Contacto </a>
-        -->
+        <nav>
 
-    
-  
 
-        <a id="logo_t" href="https://twitter.com/" target="_blank">  
-        <img  src="Images/logo_twitter.png" width="35px" height="35px" alt="logo_twitter">
-        </a>
-    
+            <ul>
+                <li> <a href="index.html"> Inicio | </a> </li>
+                <li> <a href="equipo.html"> Nosotros |</a> </li>
+                <li> <a href="formulario.html"> Contactenos </a> </li>
+            </ul>
+            <div class="wrap">
+                <div class="widget">
+                    <div class="fecha">
+                        <p id="diaSemana" class="diaSemana"></p>
+                        <p id="dia" class="dia"></p>
+                        <p>de</p>
+                        <p id="mes" class="mes"></p>
+                        <p id="anio" class="anio"></p>
+                    </div>
+
+                    <div class="reloj">
+                        <p id="horas" class="horas"></p>
+                        <p>:</p>
+                        <p id="minutos" class="minutos"></p>
+                        <p>:</p>
+
+                        <p id="segundos" class="segundos"></p>
+                        <p id="ampm" class="ampm"></p>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <a id="logo_t" href="https://twitter.com/" target="_blank">
+                <img src="Images/logo_twitter.png" width="35px" height="35px" alt="logo_twitter">
+            </a>
+
+
+            <a id="logo_f" href="https://www.facebook.com/" target="_blank">
+                <img src="Images/logo_face.png" width="35px" height="35px" alt="logo_face">
+            </a>
+
+            <a id="logo_i" href="https://www.instagram.com/" target="_blank">
+                <img src="Images/logo_insta.png" width="35px" height="35px" alt="logo_insta">
+            </a>
+
+            <a id="logo_y" href="https://www.youtube.com/" target="_blank">
+                <img src="Images/logo_youtube.png" width="35px" height="35px" alt="logo_youtube">
+            </a>
+
+            <a id="logo_w" href="https://web.whatsapp.com/" target="_blank">
+                <img src="Images/logo_what.png" width="35px" height="35px" alt="logo_whatsapp">
+            </a>
+
+
+
+        </nav>
+
+
+        <article>
+            <section id="section1" class="section1_grid">
+
+                <div id="div_news1">
+                    <p id="epigrafe1_sec1"> <b> Agencia EFE </b> <br> vie, 30 de septiembre de 2022, 6:36 p. m.
+                    </p>
+
+                    <img class="img_sec1" src="/Images/wall_street_operador2.jpg" alt="wall_street_operador2">
+
+
+                    <p id="titulo1_sec1"> <b> Wall Street cierra la semana, el mes y el trimestre con grandes
+                            pérdidas </b> </p>
+                    </a>
+                    <p> Nueva York, 30 sep (EFE).-Wall Street cerró una semana, un mes y un trimestre para olvidar, lo
+                        que llevó al selectivo S&P 500 a un nuevo mínimo para este año, cuando los inversores temen que
+                        las medidas de los bancos centrales para frenar la inflación se traduzcan en una recesión
+                        mundial.</p>
+                    
+                    <br> <br>
+                    <a href="noticia1.html">
+                        Leer más >>
+
+                    </a>
+
+                </div>
+
+                <div id="div_news2">
+                    <p id="epigrafe2_sec1"> <b> Mercados </b> <br> vie, 30 de septiembre de 2022, 3:16 p. m. </p>
+
+                    <img class="img_sec1" src="/Images/operador_ws.jpg" alt="operador_wall">
+
+
+                    <p id="titulo2_sec1"> <b> Mercados en el tercer trimestre: del cuento de hadas a la historia de
+                            terror </b> </p>
+
+                    <p id="pie1_sec1"> El miedo a una recesión global por el endurecimiento de la política monetaria,
+                        unido a las tensiones geopolíticas y a los últimos coletazos del Covid-19 han dejado un panorama
+                        desolador para las grandes bolsas mundiales, con caídas acumuladas de dobles dígitos para
+                        índices como el Dow Jones neoyorquino o el DAX alemán. </p>
+
+                    <a href="noticia2.html">
+                        Leer más >>
+                    </a>
+                </div>
+
+                <div id="div_news3"> <br>
+
+                    <p id="epigrafe1_sec1"> <b> Bloomberg </b> <br> vie, 30 de septiembre de 2022, 1:16 p. m. </p>
+
+                    <img class="img_sec1" src="/Images/grafico_inflacion_usa.jpg" alt="grafico_inflacion_usa">
+
+
+                    <p id="titulo1_sec1"> <b> Expectativas inflación EEUU caen aún más, mejorando la confianza </b>
+                    </p>
+
+                    <p> Las expectativas de inflación a largo plazo en Estados Unidos continuaron disminuyendo en
+                        septiembre, lo que ayudó a elevar levemente la confianza de los consumidores con respecto al mes
+                        anterior a pesar de la creciente incertidumbre económica.
+
+                    </p>
+                    <a href="noticia3.html">
+                        Leer más >>
+                    </a>
+                </div>
+
+
+
+            </section>
+            <section id="section2" class="section2-grid">
+
+                <div id="div_head">
+                    <h3> <i> VideoNews </i> </h3>
+                </div>
+
+                <div id="div_vidmain"><iframe id="video_main" width=60% src="https://www.youtube.com/embed/s4kDzthQl90"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+
+                <div id="div_vid1"><iframe id="video_s1" width=25% height="100"
+                        src="https://www.youtube.com/embed/s2MNkXJfQpA" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+                <div id="div_vid2"><iframe id="video_s2" width=25% height="100"
+                        src="https://www.youtube.com/embed/m88xnJxVj5I" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+                <div id="div_vid3">
+                    <iframe id="video_s3" width=25% height="100" src="https://www.youtube.com/embed/XRtTeacKQZs"
+                        title="facebook video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+
+            </section>
+
+        </article>
+
+        <aside id="aside_grid">
+
+            <div id="aside_div1">
+                <h3 id="text1_aside"><b>info<i>TECNO</i></b></h3>
+            </div>
+
+            <div id="aside_div2">
+                <img class="img_aside" src="/Images/nvidia_logo.webp" alt="tesla">
+                <a class="link_ep" href="tecnonews.html">
+                    <p class="epig_aside"> <b> Nvidia dice que cesa todas sus actividades en Rusia y reubica a sus
+                            empleados </b> </p>
+                </a>
+
+            </div>
+
+
+            <div id="aside_div3">
+                <img class="img_aside" src="/Images/logo_meta.jpg" alt="logo_meta">
+                <a class="link_ep" href="tecnonews2.html">
+                    <p class="epig_aside"> <b> Meta lanza herramientas de software de IA para facilitar cambio entre chips de Nvidia y AMD </b> </p>
+                </a>
+            </div>
+
+            <div id="aside_div4">
+                <img class="img_aside" src="/Images/ai_day.jpg" alt="ai_day">
+                <a class="link_ep" href="tecnonews3.html">
+                    <p class="epig_aside"> <b> Qué esperar del Día de la Inteligencia Artificial de Tesla 2022
+                        </b> </p>
+                </a>
+            </div>
+
+            <div id="aside_div5">
+
+                <h5> COTIZACIONES DOLAR </h5>
+
+                <div id="tabla_dolar">
+                    <table>
+
+
+                        <tr>
+                            <td> Especie </td>
+                            <td> Último Precio</td>
+                            <td> % Día </td>
+                            <td> % Mes </td>
+                            <td> % Año </td>
+                        </tr>
+                        <tr>
+                            <td> MAYORISTA </td>
+                            <td> 148,23 </td>
+                            <td> 0,6 </td>
+                            <td> 0,6 </td>
+                            <td> 44,3 </td>
+                        </tr>
+                        <tr>
+                            <td> OFICIAL </td>
+                            <td> 153,00 </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> 42,00 </td>
+                        </tr>
+                        <tr>
+                            <td> SOLIDARIO </td>
+                            <td> 267,75 </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> 50,6 </td>
+                        </tr>
+                        <tr>
+                            <td> MEP GD30 </td>
+                            <td> 297,97 </td>
+                            <td> -1,5 </td>
+                            <td> -1,5 </td>
+                            <td> 51,1 </td>
+                        </tr>
+                        <tr>
+                            <td> MEP </td>
+                            <td> 297,42 </td>
+                            <td> 0,6 </td>
+                            <td> -1,1 </td>
+                            <td> 50,4 </td>
+                        </tr>
+                        <tr>
+                            <td> CCL CEDEAR </td>
+                            <td> 309,40 </td>
+                            <td> -0,5 </td>
+                            <td> -0,5 </td>
+                            <td> 52,6 </td>
+                        </tr>
+                        <tr>
+                            <td> CCL </td>
+                            <td> 306,98 </td>
+                            <td> -0,6 </td>
+                            <td> -0,6 </td>
+                            <td> 51,9 </td>
+                        </tr>
+                        <tr>
+                            <td> CCL GD30 </td>
+                            <td> 306,98 </td>
+                            <td> -0,6 </td>
+                            <td> -0,6 </td>
+                            <td> 51,1 </td>
+                        </tr>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+            <div id="aside_div6">
+                <h5> PRINCIPALES INDICES </h5>
+
+                <div>
+                    <table id="tabla_indices">
+
+
+                        <tr>
+                            <td> Especie </td>
+                            <td> Mercado </td>
+                            <td> Valor </td>
+                            <td> Var Diaria </td>
+                            <td> Var D% </td>
+                        </tr>
+                        <tr>
+                            <td> DOW JONES </td>
+                            <td> 03/10 - New York </td>
+                            <td> 29490,89 </td>
+                            <td> +765,38 </td>
+                            <td> +2,66 </td>
+                        </tr>
+                        <tr>
+                            <td> S&P 500 </td>
+                            <td> 03/10 - New York </td>
+                            <td> 3678,43 </td>
+                            <td> +92,81 </td>
+                            <td> +2,59 </td>
+                        </tr>
+                        <tr>
+                            <td> NASDAQ </td>
+                            <td> 03/10 - New York </td>
+                            <td> 10815,43 </td>
+                            <td> +239,82 </td>
+                            <td> +2,27% </td>
+                        </tr>
+                        <tr>
+                            <td> IBEX 35 </td>
+                            <td> 03/10 - Madrid </td>
+                            <td> 7462,00 </td>
+                            <td> +95,20 </td>
+                            <td> +1,29% </td>
+                        </tr>
+                        <tr>
+                            <td> DAX </td>
+                            <td> 03/10 - Alemania </td>
+                            <td> 12209,48 </td>
+                            <td> +95,12 </td>
+                            <td> +0,79 </td>
+                        </tr>
+                        <tr>
+                            <td> EURO STOXX 50 </td>
+                            <td> 03/10 - Eurozona </td>
+                            <td> 3342,17 </td>
+                            <td> +23,97 </td>
+                            <td> +0,72 </td>
+                        </tr>
+                        <tr>
+                            <td> NIKKEI 225 </td>
+                            <td> 03/10 - Japón </td>
+                            <td> 26204,43 </td>
+                            <td> +267,22 </td>
+                            <td> +1,03% </td>
+                        </tr>
+                        <tr>
+                            <td> CHINA A50 </td>
+                            <td> 03/10 - China </td>
+                            <td> 12908,11 </td>
+                            <td> -48,18 </td>
+                            <td> -0,37 </td>
+                        </tr>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+            <div id="aside_div7">
+
+                </a>
+
+
+                <a href="https://www.etoro.com/login"
+                    target="_blank">
+                    <img id="publi1" src="/Images/eToro.png" alt="eToro"> </a>
      
-        <a id="logo_f" href="https://www.facebook.com/" target="_blank">
-        <img src="Images/logo_face.png" width="35px" height="35px" alt="logo_face">
-        </a>
-      
-        <a id="logo_i" href="https://www.instagram.com/" target="_blank">
-        <img src="Images/logo_insta.png" width="35px" height="35px" alt="logo_insta">
-        </a>
-        
-        <a id="logo_y" href="https://www.youtube.com/" target="_blank">
-        <img src="Images/logo_youtube.png" width="35px" height="35px" alt="logo_youtube">
-        </a>
-         
-        
-
-    </nav>
-
-    
-      <article>
-        <section id="section1">
-            <div class="container-fluid">
-            <p id="epigrafe1_sec1" > <b> Agencia EFE </b> <br> jue, 22 de septiembre de 2022, 5:54 p. m. </p> 
-                        
-            <img id="img_sec1" src="/Images/wall_street_operador2.jpg" alt="wall_street_operador2">
-
-            <a href="">
-            <p id="titulo1_sec1"> <b> Wall Street cierra en rojo y el Dow Jones baja un 0,35 %  </b> </p>
-            </a>
-            <p> Nueva York, 22 sep (EFE).- Wall Street cerró este jueves en rojo y su principal indicador, el Dow Jones de Industriales, bajó un 0,35 % a medida que más bancos centrales aumentan los tipos de interés para luchar contra la inflación.</p>
-<!-- https://es.finance.yahoo.com/noticias/wall-street-abre-rojo-dow-151228117.html -->
-            <br> <br>
-
-            <p id="epigrafe2_sec1" > <b> Estrategias de Inversión </b> <br> lun, 19 de septiembre de 2022, 11:20 p. m. </p> 
-                        
-            <img id="img_sec1" src="/Images/tablero_wall street.jpg" alt="tablero_wall">
-
-            <a href="art2.html">
-            <p id="titulo2_sec1"> <b> ¿Cuáles son las Bolsas del mundo qué más suben en 2022? </b> </p>
-            </a>
-            <p id="pie1_sec1"> El miedo a una recesión global por el endurecimiento de la política monetaria, unido a las tensiones geopolíticas y a los últimos coletazos del Covid-19 han dejado un panorama desolador para las grandes bolsas mundiales, con caídas acumuladas de dobles dígitos para índices como el Dow Jones neoyorquino o el DAX alemán. </p>
-            <br>
-
-            <p id="epigrafe1_sec1" > <b> Agencia EFE </b> <br> jue, 22 de septiembre de 2022, 5:54 p. m. </p> 
-                        
-            <img id="img_sec1" src="/Images/wall_street_operador2.jpg" alt="wall_street_operador2">
-
-            <a href="">
-            <p id="titulo1_sec1"> <b> Wall Street cierra en rojo y el Dow Jones baja un 0,35 %  </b> </p>
-            </a>
-            <p> Nueva York, 22 sep (EFE).- Wall Street cerró este jueves en rojo y su principal indicador, el Dow Jones de Industriales, bajó un 0,35 % a medida que más bancos centrales aumentan los tipos de interés para luchar contra la inflación.</p>
-
-        </div>
-
-<!-- https://www.bloomberg.com/news/articles/2022-09-23/singapore-overtakes-hong-kong-in-world-financial-centers-ranking?srnd=premium&leadSource=uverify%20wall -->
-
-
-        </section>
-        <section id="section2">
-            
-            <iframe id="video_main" width=60%  src="https://www.youtube.com/embed/s4kDzthQl90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            <iframe id="video_s1" width=25% height="100" src="https://www.youtube.com/embed/s2MNkXJfQpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            <iframe id="video_s2" width=25% height="100" src="https://www.youtube.com/embed/m88xnJxVj5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe> 
-
-            <iframe id="video_s3" width=25% height="100" src="https://www.youtube.com/embed/XRtTeacKQZs" title="facebook video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a href="https://turismo.buenosaires.gob.ar/es/escapadasba?dsd=pbd" target="_blank">
+                    <img id="publi2" src="/Images/caba-noche-turismo.png" alt="catamarca"> </a>
 
 
 
-        </section>
 
-    </article>
-
-    <aside>
-
-        <h3 id="text1_aside"><b>info<i>TECNO</i></b></h3>
-
-        <img class="img_aside" src="/Images/tesla.jfif" alt="tesla">
-        <a class="link_ep" href="">
-        <p class="epig_aside" > <b> Tesla llama a revisión a casi 1,1 millones de vehículos en EEUU por software de ventanilla </b> </p> 
-        </a>   
+            </div>
 
 
-        <!-- https://es.finance.yahoo.com/noticias/tesla-llama-revisi%C3%B3n-1-1-183954455.html -->
+
+        </aside>
 
 
-        <img class="img_aside" src="/Images/aapl_chip3nm.png" alt="aapl_chip3nm">
-        <a class="link_ep" href="">
-        <p class="epig_aside" > <b> Apple usará la tecnología de chip 3nm de TSMC en 2023  </b> </p> 
-        </a> 
-
-        
-        <img class="img_aside" src="/Images/logo_meta.jpg" alt="logo_meta">
-        <a class="link_ep" href="">
-        <p class="epig_aside" > <b> Meta probará herramientas de contenido para anunciantes a finales de este año  </b> </p> 
-        </a> 
-
-        <div id="tabla_dolar">
-        <table border="1"> 
-            
-            <tr>  
-                <td> DOLAR </td>
-            </tr>
-            <tr> 
-                <td> Especie </td>  
-              
-                <td> Último </td>
-                <td> % Día </td>
-                <td> % Mes </td>
-                <td> % Año </td>
-            </tr>
-            <tr> 
-                <td> MAYORISTA </td>   
-                <td> 167.23 </td>
-                <td> -0.2 </td>
-                <td> 2.9 </td>
-                <td> -5.8 </td>
-            </tr>
-            <tr> 
-                <td> OFICIAL </td>   
-                <td> 167.23 </td>
-                <td> -0.2 </td>
-                <td> 2.9 </td>
-                <td> -5.8 </td>
-            </tr>
-            <tr> 
-                <td> SOLIDARIO </td>   
-                <td> 167.23 </td>
-                <td> -0.2 </td>
-                <td> 2.9 </td>
-                <td> -5.8 </td>
-            </tr>
-            <tr> 
-                <td> MEP GD30 </td>   
-                <td> 167.23 </td>
-                <td> -0.2 </td>
-                <td> 2.9 </td>
-                <td> -5.8 </td>
-            </tr>
-            <tr> 
-                <td> MEP </td>   
-                <td> 167.23 </td>
-                <td> -0.2 </td>
-                <td> 2.9 </td>
-                <td> -5.8 </td>
-            </tr>
-            <tr> 
-                <td> CCL CEDEAR </td>   
-                <td> 167.23 </td>
-                <td> -0.2 </td>
-                <td> 2.9 </td>
-                <td> -5.8 </td>
-            </tr>
-            <tr> 
-                <td> CCL </td>   
-                <td> 167.23 </td>
-                <td> -0.2 </td>
-                <td> 2.9 </td>
-                <td> -5.8 </td>
-            </tr>
-            <tr> 
-                <td> CCL GD30 </td>   
-                <td> 167.23 </td>
-                <td> -0.2 </td>
-                <td> 2.9 </td>
-                <td> -5.8 </td>
-            </tr>
-    
-        </table>
+        <footer> <b>
+                <p> &copy;2022 HK Finances - Todos los derechos reservados <br> Buenos Aires - Argentina </p>
+            </b> </footer>
 
     </div>
 
-        
-
-
-        </a>
-
-
-        <a  href="https://portal.catamarca.gob.ar/ui/?gclid=EAIaIQobChMI_b31xqGq-gIVjxCICR0adAWlEAEYASAAEgIFUvD_BwE" target="_blank">
-        <img id="publi1" src="/Images/catamarca.jfif" alt="catamarca"> </a>
-        <!-- https://libertex.org/es/test-for-traders#start-quiz 
-            https://www.ambito.com/finanzas/inversiones/como-armar-una-cartera-inversion-acorde-mi-perfil-n5541721
-        -->
-
-
-
-    </aside>
-
-
-    <footer> <b><p> &copy;2022 K1nghthawk - Todos los derechos reservados  <br> Buenos Aires - Argentina </p> </b>  </footer>  
-
-</div>
 
 
 
 
-
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>

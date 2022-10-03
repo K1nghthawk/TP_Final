@@ -5,19 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HK Finances</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="body4">
    
-    <a class="home" href="index.html"> Inicio </a>
+   
+    <div class="home">
+        <a href="index.html">  Inicio    </a>
+        
+    </div>
 
    
-    <h2 id="h2_form"><b> <u> CONTACTO </u> </b></h2>
+    
     
     <div id="div_form">
-    <p> Con mucho gusto puedo atender tus comentarios; dar respuesta a tus dudas y/o preguntas generales relacionados con tus Finanzas Personales.  Por favor llena este formulario y te responderé lo mas pronto que me sea posible. Gracias!.</p>
-    </div>
+        
+    <p id="msj_contacto"> Con mucho gusto podemos atender tus comentarios; dar respuesta a tus dudas y/o preguntas generales relacionados con tus Finanzas Personales.  Por favor llena este formulario y te responderemos lo mas pronto que nos sea posible. Gracias!.</p>
+    
         
     <form method="post"  action="/form-handler.php"> 
         <input type="text" name="nombres" placeholder="Nombre"> <br>
@@ -26,8 +33,20 @@
         <br> 
         <textarea name="mensaje"  placeholder="Escriba aquí su mensaje..."></textarea>
         <br>
-        <input id="boton"  type="submit" value="Enviar">
+      
+
+        <button id="boton" type="button" class="btn btn-primary btn-lg">Enviar</button>
     </form>
+
+
+
+
+    <footer class="footer2"> 
+        <b>
+        <p> &copy;2022 K1nghthawk - Todos los derechos reservados <br> Buenos Aires - Argentina </p>
+    </b>
+ </footer>
+</div>
     
 </body>
 </html>
